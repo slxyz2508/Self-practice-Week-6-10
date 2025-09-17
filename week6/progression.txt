@@ -1,0 +1,6 @@
+higher function คือ function ที่ั รับหรือ return funtion
+pure function เป็น function ที่ไม่ส่งผลกระทบต่อ global variable เกิดขึ้นและจบภายในfunction ถ้าเรียกfunction ซ้ำผลลัพย์ต้องเหมือนเดิม ต่อให้มีการเปลี่ยนแปลง global variable
+impure function คือตรงกันข้ามกับ pure function
+anonymouse function คือfunction ที่ไม่มีชื่อ สามารถใช้ในการcall back function หรือ expression ได้
+nested function คือการที่มี function ซ้อนอยู่ข้างใน function อีกทีหนึ่งโดยจะเป็นหนึ่งในคุณสมบัติของCLOSURE ซึ่งมีคุณสมบัติในการเก็บรักษาตัวแปรหรือฟังกชันให้คงอยู่ไว้
+เมื่อทำการเรียกใช้ครั้งต่อไปค่าของมันจะยังคงอยู่
