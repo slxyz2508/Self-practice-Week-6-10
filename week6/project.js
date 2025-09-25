@@ -35,9 +35,9 @@ function updateQuote(id, updatedQuote) {
   // TODO: Find the quote by id and update its properties
   const index = quotes.findIndex((value,index) => value.id === id)
   if(index > -1 ){
-    let id = quotes[index]
-    id.content = updatedQuote.content
-    id.author = updatedQuote.author
+    let quote = quotes[index]
+    quote.content = updatedQuote.content
+    quote.author = updatedQuote.author
  
   }
  
