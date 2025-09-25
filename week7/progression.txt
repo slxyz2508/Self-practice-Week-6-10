@@ -1,0 +1,8 @@
+DOM หรือ Document Object modeling เราสามารถจำลองhtml ขึ้นมาเพื่อกำหนดโครงสร้างของมัน โดยเมื่อเราทำการประมวลผลตัวเวป มันจะทำการเปลี่ยนให้กลายเป็น document object และเป็น root node
+ของ DOM โดยที่องค์ประกอบของมันจะประกอบด้วย element ข้างใน โดยที่ tag html จะเป็น firstchild หรือตำแหน่งแรกของ document และมีparent node เป็น root node
+และแต่ละelement เราจะเรียกมันว่าnode และแต่ละ node จะมี nodename, nodevalue  และ nodeType ถ้าเรากำหนดให้มันเป็น childnodes มันจะนับwhite-space ด้วย
+ถ้าเป็น children จะนับแบบจริงๆแต่มันจะไม่ใช่ array เป็น htmlcollection
+เราสามารถกำหนด attributes ได้ นับความยาวของมัน และสามารถสร้างelement ขึ้นมาด้วยวิธีการสร้าง tag กำหนดattributes เพิ่มหรือset content ลงไปและappend มันเข้าไป 
+และสุดท้ายการแสดงผลแบบinnerHtml จะแสดงตัว tag
+innertext สิ่งที่หน้าเวปแสดงผลจริงๆ
+และ textcontent แสดงทั้งหมดจริงๆโดยไม่สนใจ css
