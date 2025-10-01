@@ -1,0 +1,8 @@
+การเรียนกถึงelement เราสามารถใช้ docuement.getelementbyID ได้ แต่ถ้าเราต้องการจะเจาะจงข้างในelement หรือ ใน element
+มี class และ id ซ้ำกัน เราจะใช้ document.querySelector เพื่อเรียกถึงได้ โดยนำหน้าเป็น # หรือ . แล้วแต่ attributes
+getElementByName สามารถเลือกจากnameได้เลย  getElementByClassname และ Tag เป็น HTML Collection ต้องเรียกใช้จาก array.from
+ถึงจะดู child ข้างในได้่ querySelector ถ้ามี parameter 2ตัวขึ้นไป ถ้ามันเจอตัวไหนก่อนจะแสดงของตัวนั้น ถ้าเป็น querySelectorAll จะแสดงของทุกตัวที่ตรงกัน
+(insertBefore) คือfunctionในการเพิ่มelementก่อนหน้า element ที่เลือกไว้ removeChild คือลบ replaceChild คือแทนที่ที่มีอยู่
+
+add.addEventListener คือฟังก์ชันเมื่อเกิด action ขึ้นเช่น click จะทำการไปเรียกใช้ฟังก์ชันอื่น 
+classList คือการเข้าถึงclass นั้นๆและเลือก class ให้มันได้
