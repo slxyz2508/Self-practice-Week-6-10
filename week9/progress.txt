@@ -1,0 +1,4 @@
+event คือลำดับเหตุการณ์ที่เกิดขึ้นเมื่อกด actionโดย เมื่อเราทำการเรียกถึง element จะมีทั้งหมด 3 รูปแบบ 1. target คึอelmentตัวนั้น 2.bubbling จาก target ออกไปข้างนอก
+3.capturing จากข้างนอกเข้ามาข้างใน โดยเมื่อเราทำการadd หรือ remove eventlistener default จะเป็นแบบ bubbling ถ้าใส่ true ต่อท้ายจะเป็นแบบ capturing ระหว่างเรียกแต่ละชั้นออกมาจะมีสิ่งที่เรียก
+ว่า event object ปรากฎเช่น eventphase สถานะของมัน ,target ที่ชี้element ตัวน้น , currenttarget หรือparent node เมื่อค่อยๆไล่ลำดับออกมา
+preventdefault()คือฟังกชันของ event ที่ห้ามไม่ให้ทำ behivor ของ html
