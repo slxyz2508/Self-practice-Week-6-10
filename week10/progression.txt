@@ -1,0 +1,4 @@
+Cookie คือ1 ในการเก็บ user information เอาไว้ในstorage โดยจะยังคงเก็บข้อมูลเอาไว้ตามที่เรากำหนด cilent กับServer เข้าถึงได้ได้ การถ่ายโอน
+จะต้องผ่าน request http มีขนาดเล็กและรองรับ Third Party Cookie
+Session Storage และ Local Storage ทำงานเหมือนcookie ต่างตรงที่ Session มีอายุแค่ Session เมื่อปิด browser จะลบข้อมูลทิ้ง ส่วน local จะเก็บไว้ตลอดชีวิตจนกว่าจะมีการแก้ไข js
+มีแค่ cilentเข้าถึงได้เท่านั้นทั้งคู่
